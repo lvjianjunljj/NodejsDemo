@@ -1,6 +1,6 @@
 var trees = ['redwood', 'bay', 'cedar', 'oak', 'maple'];
 console.log(trees.indexOf('redwood') > -1);
-console.log('redwood' in array);
+console.log('redwood' in trees);
 
 
 console.log(' ');
@@ -151,7 +151,7 @@ var crypto = require('crypto');
 
 // Azure Log Analysis credentials
 var workspaceId = '76310b5b-2f07-4a19-a006-8e94f44c7167';
-var sharedKey = 'hlbYjAVMcajD16Y8DQtvJDPEVcUMgn4xFRspUSMRPhzuPt2UG2h+HgkflhBpPNqNQfF8pYXyjv3ferQbpGjJgA==';
+var sharedKey = '';
 
 var apiVersion = '2016-04-01';
 var processingDate = new Date().toUTCString();
