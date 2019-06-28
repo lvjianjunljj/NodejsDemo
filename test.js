@@ -55,7 +55,7 @@ var querystring = require('querystring');
 // var body = {
 //   grant_type: 'client_credentials',
 //   client_id: '83ac8948-e5e1-4bbd-97ea-798a13dc8bc6',
-//   client_secret: 'IKLBuG0PqH?ZrpNmQu1ta.3Q==3:*I+A',
+//   client_secret: '',
 //   resource: '83ac8948-e5e1-4bbd-97ea-798a13dc8bc6'
 // };
 
@@ -95,7 +95,7 @@ var querystring = require('querystring');
 // var body = {
 //   grant_type: 'client_credentials',
 //   client_id: '83ac8948-e5e1-4bbd-97ea-798a13dc8bc6',
-//   client_secret: 'IKLBuG0PqH?ZrpNmQu1ta.3Q==3:*I+A',
+//   client_secret: '',
 //   resource: '83ac8948-e5e1-4bbd-97ea-798a13dc8bc6'
 // };
 
