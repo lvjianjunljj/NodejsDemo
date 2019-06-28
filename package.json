@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrayfinddemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvjianjunljj/NodejsDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvjianjunljj/NodejsDemo/issues"
+  },
+  "homepage": "https://github.com/lvjianjunljj/NodejsDemo#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
