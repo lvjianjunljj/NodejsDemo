@@ -1,5 +1,6 @@
-var request = require('request');
-var querystring = require('querystring');
+const request = require('request');
+const querystring = require('querystring');
+
 
 // Here we use getting token from AAD as an example
 // For AAD, we need to use querystring.stringify() but not JSON.stringify() as request body serialization method
