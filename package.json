@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lvjianjunljj/NodejsDemo#readme",
   "dependencies": {
+    "azure-keyvault": "^3.0.4",
     "crypto": "^1.0.1",
     "http": "^0.0.0",
     "querystring": "^0.2.0",
