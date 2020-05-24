@@ -7,9 +7,9 @@
 
 var KeyVault = require('azure-keyvault');
 var AuthenticationContext = require('adal-node').AuthenticationContext;
-var clientId = "<enter-id-from-azure>";
-var clientSecret = "<enter-secret-from-azure>";
-var vaultUri = "<enter-keyvault-url-from-azure>";
+var clientId = "83ac8948-e5e1-4bbd-97ea-798a13dc8bc6";
+var clientSecret = "7i3FJARjC7gfijm5rcUfYCmD1FSv0OuOWrLJlJgEfMc=";
+var vaultUri = "https://datacopdev.vault.azure.net/";
 // Authenticator - retrieves the access token
 var authenticator = function (challenge, callback) {
 // Create a new authentication context.
@@ -25,7 +25,7 @@ var authenticator = function (challenge, callback) {
 
 var credentials = new KeyVault.KeyVaultCredentials(authenticator);
 var client = new KeyVault.KeyVaultClient(credentials);
-var secretName = '<enter-secret_name>';
+var secretName = 'AADDataCopClientSecret';
 secretVersion = '' //leave this blank to get the latest version;
 client.getSecret(vaultUri, secretName, secretVersion).then((result) => {
     console.log(`result.toString(): ${result}`);
